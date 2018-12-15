@@ -1,5 +1,6 @@
  package com.bayanadam.androidwithgithub
 
+import android.media.Image
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -17,9 +18,10 @@ import android.widget.TextView
 
         //Our first Project on Github
 
+        val text = findViewById<TextView>(R.id.text_view)
+        val btn = findViewById<Button>(R.id.btn)
+        val image = findViewById<ImageView>(R.id.imge)
 
-        val image = findViewById<ImageView>(R.id.imageView)
-        val btn = findViewById<Button>(R.id.button)
-        val text = findViewById<TextView>(R.id.textView)
+
     }
 }
